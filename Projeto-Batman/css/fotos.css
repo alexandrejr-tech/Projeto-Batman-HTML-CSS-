@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+header {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+    
+    
+
+li {
+    
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 50px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    align-items: center;
+}
+
+li:hover {
+    color: #d21617;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url(https://noticiasdatv.uol.com.br/media/uploads/artigos_2021/batman-robert-pattinson-foto-divulgacao-warner-bros.jpg);
+}
+
+.banner-2 {
+    background-image: url(https://i.pinimg.com/originals/0a/75/56/0a75565a68ebd62893d4230f8a5605a7.jpg);
+}
+
+.banner-3 {
+    background-image: url(https://i0.wp.com/www.heyuguys.com/images/2019/10/Jeffrey-Wright-Batman.jpg?fit=1000%2C606&ssl=1)
+}
+
+.banner-4 {
+    background-image: url(https://midias.correiobraziliense.com.br/_midias/jpg/2023/08/21/1000x1000/1_o_batman_easy_resize_com_-29069579.jpg?20230821092600?20230821092600);
+}
+
+.banner-5 {
+    background-image: url(https://opopular.com.br/image/policy%3A1.2413751%3A1676222363%2Fimage.jpg%3Ff%3D3x2);
+}
+
+.banner-6 {
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/batman-1646665044.jpeg?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*);
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+    
